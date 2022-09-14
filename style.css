@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "voyage";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    width: 100%;
+}
+#main #first{
+    width: 100%;
+    height: 100vh;
+    background-color: #dadada;
+    position: relative;
+    overflow: hidden;
+}
+#first #one{
+    position: absolute;
+    color: black;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 28%;
+    font-size: 350px;
+    font-weight: 500;
+}
+#first #sec{
+    position: absolute;
+    color: black;
+    transform: translate(-50%, -50%);
+    bottom: -25%;
+    left: 50%;
+    font-size: 380px;
+    font-weight: 500;
+}
+#first #img1{
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1586907835000-f692bbd4c9e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=361&q=80);
+    background-size: cover;
+    z-index: 999;
+    transform: rotate(10deg);
+    width: 12%;
+    height: 35%;
+    top: 28%;
+    left: 43%;
+}
+#first #img1:hover{
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .2s;
+    transform: rotate(30deg);
+    width: 16%;
+    height: 45%;
+    z-index: 99999;
+}
+#first #img2{
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1600633465156-7ca0886ea464?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-size: cover;
+    z-index: 9999;
+    transform: rotate(-10deg);
+    width: 12%;
+    height: 35%;
+    top: 28%;
+    left: 43%;
+}
+#first #img2:hover{
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .2s;
+    transform: rotate(-30deg);
+    width: 16%;
+    height: 45%;   
+}
+#main #second{
+    width: 100%;
+    height: 100vh;
+    background-color: #dadada;
+    position: relative;
+}
+#second #text1{
+    position: absolute;
+    top: 0%;
+    left: 24%;
+    font-size: 20px;
+}
+#second #text2{
+    position: absolute;
+    bottom: 34%;
+    right: 30%;
+    font-size: 15px;
+}
+#second button{
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    border: none;
+    font-family: "gilroy";
+    align-items: center;
+    padding: 10px ;
+    position: absolute;
+    bottom: 35%;
+    right: 54%;
+}
+#second button:hover{
+    cursor: pointer;
+    font-size: 17px;
+    background-color: rgba(99, 62, 62, 0.726);
+}
+#main #third{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #dadada;
+    overflow: hidden;
+}
+#third h3{
+    position: absolute;
+    top: 0%;
+    left: 8%;
+    font-size: 22px;
+    font-weight: 900;
+    word-spacing: 3px;
+    letter-spacing: 1.5px;
+}
+#third h5{
+    position: absolute;
+    top: 0%;
+    right: 8%;
+}
+#third #one{
+    position: absolute;
+    top: 12%;
+    left: 28%;
+    font-size: 80px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    opacity: .3;
+    border-top: 2px solid black;
+    width: 67%;
+    border-bottom: 2px solid black;
+
+}  
+#third #one:hover{
+    cursor: pointer;
+    color: black;
+    opacity: 1;
+}
+#third #two{
+    position: absolute;
+    top: 42%;
+    left: 25%;
+    font-size: 80px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    opacity: .3;
+    border-bottom: 2px solid black;
+    width: 70%;
+}
+#third #two:hover{
+    cursor: pointer;
+    color: black;
+    opacity: 1;
+}
+#third #three{
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    font-size: 80px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    opacity: .7;
+    z-index: 999;
+}
+#third #three:hover{
+    cursor: pointer;
+    color: rgba(91, 58, 58, 0.777);
+    opacity: 1;
+}
+#third #four{
+    position: absolute;
+    top: 87%;
+    left: 25%;
+    font-size: 90px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    opacity: .3;
+    border-top: 2px solid black;
+    width: 70%;
+} 
+#third #four:hover{
+    cursor: pointer;
+    color: black;
+    opacity: 1;
+}
+#third #img{
+    position: absolute;
+    width: 12%;
+    height: 37%;
+    background-image: url(https://images.unsplash.com/photo-1602300592354-cfaad912a31d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    top: 59%;
+    right: 35%;
+}
+#four{
+    width: 100%;
+    height: 100vh;
+    background-color: #dadada; 
+    position: relative;
+    overflow: hidden;
+} 
+#four #five{
+    position: absolute;
+    top: 4%;
+    left: 25%;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    opacity: .3;
+    font-size: 90px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 70%;
+}
+#four #five:hover{
+    cursor: pointer;
+    color: black;
+    opacity: 1;
+}
+#four #six{
+    position: absolute;
+    left: 25%;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    opacity: .3;
+    font-size: 90px;
+    top: 35%;
+    border-top: 2px solid black;
+    width: 70%;
+}
+#four #six:hover{
+    cursor: pointer;
+    color: black;
+    opacity: 1;
+}
+#four #seven{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    opacity: .3;
+    font-size: 90px;
+    border-bottom: 2px solid black;
+    width: 70%;
+}
+#four #seven:hover{
+    cursor: pointer;
+    color: black;
+    opacity: 1;
+}
+#five{
+    width: 100%;
+    height: 100vh;
+    background-color: #dadada; 
+    position: relative;
+    overflow: hidden;
+} 
+#five #one{
+    position: absolute;
+    top: 4%;
+    left: 6%;
+    font-size: 30px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+#five #two{
+    position: absolute;
+    top: 8%;
+    left: 4.5%;
+    font-size: 30px;
+    word-spacing: 1.5px;
+    letter-spacing: 1.5px;
+}
+#five h5{
+    position: absolute;
+    top: 6%;
+    right: 5%;
+    font-size: 17px;
+}
+#five #p{
+    position: absolute;
+    top: 8%;
+    left: 25%;
+    font-size: 290px;
+    font-weight: 590;
+}
+#five #seven{
+    position: absolute;
+    top: 53%;
+    left: 25%;
+    font-size: 250px;
+    font-weight: 590;
+}
+#five #zero{
+    position: absolute;
+    top: 25%;
+    right: 45%;
+    font-size: 250px;
+    font-weight: 590;
+}
+#five #wone{
+    position: absolute;
+    top: 53%;
+    right: 25%;
+    font-size: 250px;
+    font-weight: 590;
+}
+#five #img1{
+    position: relative;
+    width: 12%;
+    height: 38%;
+    background-image: url(https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1936&q=80);
+    background-size: cover;
+    top: 30%;
+    left: 23%;
+}
+ #img1:hover{
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
+    transform: rotate(-18deg);
+    width: 16%;
+    height: 45%;
+    z-index: 99999;
+}
+#five #img2{
+    position: relative;
+    width: 12%;
+    height: 38%;
+    background-image: url(https://images.unsplash.com/photo-1535930749574-1399327ce78f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1936&q=80);
+    background-size: cover;
+    top: -17%;
+    left: 49%;
+}
+ #img2:hover{
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
+    transform: rotate(-18deg);
+    width: 16%;
+    height: 45%;
+    z-index: 99999;
+}
+#five #img3{
+    position: relative;
+    width: 12%;
+    height: 38%;
+    background-image: url(https://images.unsplash.com/photo-1583337426008-2fef51aa841d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80);
+    background-size: cover;
+    background-position: center;
+    top: -46%;
+    left: 72.5%;   
+}
+ #img3:hover{
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .3s;
+    transform: rotate(-18deg);
+    width: 16%;
+    height: 45%;
+    z-index: 99999;
+}
+#six{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-color: #dadada; 
+    overflow: hidden;
+}
+#six #one{
+     position: relative;
+     left: 4%;
+     word-spacing: 1px;
+}
+#six #two{
+    position: relative;
+    left: 40%;
+    word-spacing: 1px;
+    top: -7%;
+}
+#six #three{
+    position: relative;
+    left: 58%;
+    top: -17%;
+    font-size: 27px;
+}
+#six #four{
+    position: relative;
+    top: -17%;
+    left: 69%;
+    font-size: 27px;
+}
+#six #five{
+    position: relative;
+    font-size: 17px;
+    top: 12%;
+    left: 40%;
+}
+#six #five:hover{
+    cursor: pointer;
+    color: rgba(92, 61, 61, 0.615);
+}
